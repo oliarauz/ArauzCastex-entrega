@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+
+.row div {padding-top: 20px;}
+
+#links {
+    text-decoration: solid;
+    color: white;
+    word-spacing: 30px;}
+
+    #links:hover {
+        color: burlywood;}
+
+
+    #Phrase {
+        font-family: Montserrat light;
+        font-size: 20px;
+        color: black;
+        font-style: italic;
+        transition-property:all;
+        animation: move 5s infinite;
+        }
+
+    #LOGO {
+       margin-top: 30px;
+    }
+    
+    #LOGO:hover{
+        scale: 1.5;
+        transition-property: all;
+        transition-duration: 2s;
+    }
+   
+    
+    #Obras {
+        transition-property:color;
+            transition-timing-function: ease-in;
+        }
+    #Obras:hover {
+            filter:invert()}
+
+    #Contact{
+        transition-property:color;
+            transition-timing-function: ease-in;
+    }
+
+    body {
+    color: rgb(26, 26, 26);} 
+    
+    h1 {
+        text-align: center;
+    font-family: Montserrat;
+    padding-bottom: 40px;
+    color: gray;}
+    
+    
+    p {
+        font-family: Montserrat light;
+        text-align: left;
+        font-size: 25px;}
+
+
+ form{
+        width: 100%;
+        font-family: montserrat;
+        padding: 30px;
+        }
+
+    
+    #video {
+        margin-top: 20px;
+       
+    }
+    
+    @keyframes move {
+        from {color: #ffffff;}
+        to {color: #000000b4;}
+        }
